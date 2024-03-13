@@ -8,7 +8,7 @@ class Game:
         self.largura = 800
         self.altura = 600
         self.tela = pygame.display.set_mode((self.largura, self.altura))
-        pygame.set_caption("BATE-BATE")
+        pygame.display.set_caption("BATE-BATE")
         self.clock = pygame.time.Clock()
         self.MovendoTexto = MovendoTexto("PAULO", 50, self.largura, self.altura)
 
@@ -24,7 +24,7 @@ class Game:
             self.tela.blit(self.MovendoTexto.texto_surf,
                            self.MovendoTexto.rect)
             pygame.display.flip()      
-            self.clock.tick(60)
+            self.clock.tick(350)
 
         pygame.quit()
         sys.exit()

@@ -12,17 +12,17 @@ class MovendoTexto:
 
 
         self.velocidade_x = self.gerar_numero_nao_zero()
-        self.velocidade_x = self.gerar_numero_nao_zero()
+        self.velocidade_y = self.gerar_numero_nao_zero()
 
     def gerar_numero_nao_zero(self):
         numero = 0 
         while numero == 0 :
-            numero = random.random(-1,1)
+            numero = random.randint(-1,1)
         return numero
 
     def move(self):
         self.rect.x += self.velocidade_x
-        self.rect.x += self.velocidade_y
+        self.rect.y += self.velocidade_y
 
         if self.rect.left <= 0:
             self.velocidade_x = random.randint(0,1)
@@ -39,7 +39,7 @@ class MovendoTexto:
             self.velocidade_y = random.randint(0,1)
             self.change_color()
 
-        if self.rect.bottom <= self.largura:
+        if self.rect.bottom >= self.altura:
             self.velocidade_x = random.randint(-1,1)
             self.velocidade_y = random.randint(-1,0)
             self.change_color()
@@ -50,7 +50,7 @@ class MovendoTexto:
             random.randint(0,255),
             random.randint(0,255),
             random.randint(0,255),)
-        self.texto_surf = self.font.render(self.texto, True, cor_texto)
+        self.texto_surf = self.font.render(self.text, True, cor_texto)
         
 
 
