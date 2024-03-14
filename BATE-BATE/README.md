@@ -30,6 +30,8 @@ CLASSE: GAME ->
 
 
   Atributos:
+
+  
       LARGURA:
       ALTURA:
       TELA:
