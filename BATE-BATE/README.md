@@ -27,6 +27,8 @@ CLASSE: MOVENDO_TEXTO ->
       CHANGE_COLOR(SELF):
 
 CLASSE: GAME -> 
+
+
   Atributos:
       LARGURA:
       ALTURA:
