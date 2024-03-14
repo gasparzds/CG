@@ -4,9 +4,7 @@ DIAGRAMA DE UML:
 
 
 CLASSE: MOVENDO_TEXTO -> 
-  Atributos:
-
-  
+  #Atributos:
       FONT:
       TEXT: 
       LARGURA: 
