@@ -22,9 +22,9 @@ CLASSE: MOVENDO_TEXTO ->
   Metodos:
 
   
-      GERAR_NUMERO_NAO_ZERO(SELF):
-      MOVE(SELF): 
-      CHANGE_COLOR(SELF):
+      GERAR_NUMERO_NAO_ZERO(SELF): tem a função de gerar um número aleatóriamente, menos o numero 0. 
+      MOVE(SELF): Ajusta a posição do texto na tela, levando em consideração a velocidade X e Y
+      CHANGE_COLOR(SELF): Essa função alterar a cor do texto
 
 CLASSE: GAME -> 
 
@@ -32,15 +32,15 @@ CLASSE: GAME ->
   Atributos:
 
   
-      LARGURA:
-      ALTURA:
-      TELA:
-      CLOCK:
-      MOVENDOTEXTO:
+      LARGURA: Define a largura da janela do jogo em pixels
+      ALTURA: Define a altura da janela do jogo em pixels
+      TELA: Aqui está a janela principal do jogo onde tudo é apresentado
+      CLOCK: controlar a taxa de atualização do jogo, é onde pode ser aumentado a velocidade do texto
+      MOVENDOTEXTO: é onde está toda a regra do movimento do texto, o que vai acontecer quando ele bate
   Metodos: 
 
   
-      RUN(SELF):
+      RUN(SELF): chamado para iniciar o jogo
 
 
 
@@ -49,7 +49,7 @@ CLASSE: GAME ->
   Atributos:
 
   
-      GAME:
+      GAME: Esta variável é usada para poder acessar os métodos do jogo
   Metodos: 
 
   
