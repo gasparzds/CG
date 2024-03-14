@@ -19,7 +19,9 @@ CLASSE: MOVENDO_TEXTO ->
       VELOCIDADE_X: 
   
   
-  Metodos: 
+  Metodos:
+
+  
       GERAR_NUMERO_NAO_ZERO(SELF):
       MOVE(SELF): 
       CHANGE_COLOR(SELF):
