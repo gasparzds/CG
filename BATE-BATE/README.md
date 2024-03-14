@@ -49,6 +49,8 @@ CLASSE: GAME ->
   
       GAME:
   Metodos: 
+
+  
       IF__NAME__ == __MAIN__
 
 
