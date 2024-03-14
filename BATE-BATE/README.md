@@ -9,14 +9,14 @@ CLASSE: MOVENDO_TEXTO ->
   Atributos:
 
   
-      FONT:
-      TEXT: 
-      LARGURA: 
-      ALTURA: 
-      TEXTO_SURF: 
-      RECT: 
-      VELOCIDADE_Y:
-      VELOCIDADE_X: 
+      FONT: É usada para definir o tipo e tamanho do texto que será mostrado na tela
+      TEXT: É uma váriavel que armazena o textoque será exibido na tela
+      LARGURA: Aqui armazena a largura total da tela
+      ALTURA: Aqui armazena a altura total da tela
+      TEXTO_SURF: O texto é criado nesta superfície para então ser aparecer na tela principal
+      RECT: representa um retângulo em torno do texto, que é possivel manipular a posição do texto na tela
+      VELOCIDADE_x: velocidade horizontal do texto no eixo x
+      VELOCIDADE_y: velocidade vertical do texto no eixo y
   
   
   Metodos:
