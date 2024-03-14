@@ -43,7 +43,10 @@ CLASSE: GAME ->
 
 
   CLASSE: GAME -> 
+  
   Atributos:
+
+  
       GAME:
   Metodos: 
       IF__NAME__ == __MAIN__
