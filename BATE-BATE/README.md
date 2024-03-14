@@ -15,6 +15,8 @@ CLASSE: MOVENDO_TEXTO ->
       RECT: 
       VELOCIDADE_Y:
       VELOCIDADE_X: 
+  
+  
   Metodos: 
       GERAR_NUMERO_NAO_ZERO(SELF):
       MOVE(SELF): 
