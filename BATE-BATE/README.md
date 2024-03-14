@@ -38,6 +38,8 @@ CLASSE: GAME ->
       CLOCK:
       MOVENDOTEXTO:
   Metodos: 
+
+  
       RUN(SELF):
 
 
