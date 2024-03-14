@@ -7,6 +7,8 @@ CLASSE: MOVENDO_TEXTO ->
   
   
   Atributos:
+
+  
       FONT:
       TEXT: 
       LARGURA: 
